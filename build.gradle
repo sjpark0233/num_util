@@ -4,6 +4,18 @@ apply plugin: 'maven-publish'
 group 'com.psj.util'
 version '1.0-SNAPSHOT'
 
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.psj.util'
+            artifactId 'num_utils'
+            version '1.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
