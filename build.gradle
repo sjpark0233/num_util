@@ -1,7 +1,7 @@
 apply plugin: 'java'
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
-group 'com.psj.util'
+group 'com.github.sjpark0233'
 version '1.0-SNAPSHOT'
 
 repositories {
